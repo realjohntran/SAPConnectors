@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>Proxies</AssemblyName>
+    <RootNamespace>Proxies</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SapNwRfc" Version="1.2.0" />
+  </ItemGroup>
+
+</Project>
