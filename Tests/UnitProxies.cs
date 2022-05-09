@@ -18,7 +18,7 @@ namespace Tests
         {
             SAPNWRFC.Result rfcoutput = SAPNWRFC.execute("host", "user", "password", "client");
 
-            Assert.True(rfcoutput!= null && rfcoutput.codes.Length > 0);
+            Assert.True(rfcoutput!= null);
         }
 
     }
